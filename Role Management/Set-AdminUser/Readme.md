@@ -1,4 +1,4 @@
-#Set-AdminUser scripts
+# Set-AdminUser scripts
 
 This script is to facilitate quickly assigning Directory Role Groups to Administrators when using Privilaged Identity Management.  
 If you are not employing PIM in your Tenant, then this script will not be needed.
