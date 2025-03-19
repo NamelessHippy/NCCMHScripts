@@ -1,0 +1,9 @@
+﻿Description,DisplayName,Id,Members,RoleTemplateId
+Can reset passwords for non-administrators and Helpdesk Administrators.,Helpdesk Administrator,6d66af6f-a18f-45ba-8398-bfa02ae0dd15,,729827e3-9c14-49f7-bb1b-9608f156bbb8
+"Members of this role can create/manage groups, create/manage groups settings like naming and expiration policies, and view groups activity and audit reports.",Groups Administrator,706c072b-6cc7-4ae7-9dc3-e547ac5bac8a,,fdd7a751-b60b-444a-984c-02652fe8fa1c
+Can reset passwords for non-administrators and Password Administrators.,Password Administrator,a8a758d7-5d49-43b3-84c1-82d19c9dbf9d,,966707d0-3269-4727-9be2-8c3a10f19b9d
+"Can manage all aspects of users and groups, including resetting passwords for limited admins.",User Administrator,8f931210-deb2-493f-9298-927029cdb57a,,fe930be7-5e62-47db-91af-98c3a49a38b1
+"Allowed to view, set and reset authentication method information for any non-admin user.",Authentication Administrator,c6418c0e-fe4d-4ff2-9185-939b1d55daf6,,c4e39bd9-1100-46d3-8c65-fb160da0071f
+Can manage product licenses on users and groups.,License Administrator,e45c63a7-db40-4e1d-84e1-9e6e7ae897ef,,4d6ac14f-3453-41d0-bef9-a3e0c569773a
+Can read service health information and manage support tickets.,Service Support Administrator,f590c87c-45da-43c7-a9b5-6fbe2c55050e,,f023fd81-a637-4b56-95fd-791ac0226033
+Can manage all aspects of the SharePoint service.,SharePoint Administrator,3614101d-39c9-44ac-80e2-a5b7d93018a4,,f28a1f50-f6e7-4571-818b-6a12f2af6b6c

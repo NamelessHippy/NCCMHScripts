@@ -1,0 +1,16 @@
+﻿Description,DisplayName,Id,Members,RoleTemplateId
+Can create and manage all aspects of app registrations and enterprise apps.,Application Administrator,1823d015-f704-4b2c-b589-75ded349fcb5,,9b895d92-2cd3-44c7-9d02-a6ac2d5ea5c3
+"Allowed to view, set and reset authentication method information for any non-admin user.",Authentication Administrator,c6418c0e-fe4d-4ff2-9185-939b1d55daf6,,c4e39bd9-1100-46d3-8c65-fb160da0071f
+Customize sign in and sign up experiences for users by creating and managing custom authentication extensions.,Authentication Extensibility Administrator,021b6888-89c4-4c12-9538-befb1b39e285,,25a516ed-2fa0-40ea-a2d0-12923a21473a
+"Can create and manage the authentication methods policy, tenant-wide MFA settings, password protection policy, and verifiable credentials.",Authentication Policy Administrator,997c189e-ce92-4efb-9a0a-8f0cceca91f8,,0526716b-113d-4c15-b2c8-68e3c22b9f80
+Limited access to manage devices in Microsoft Entra ID.,Cloud Device Administrator,fc8c5abc-a71f-4b0f-9512-6978fa210e5e,,7698a772-787b-4ac8-901f-60d6b08affd2
+Can access and manage Desktop management tools and services.,Desktop Analytics Administrator,3a9f464b-cad8-4eba-bd3a-57ce9778a84b,,38a96431-2bdf-4b4c-8b6e-5d3d8abac1a4
+Manage all aspects of Microsoft Edge.,Edge Administrator,9f3e458a-0d71-4186-9da7-099ce0e16f23,,3f1acade-1e04-4fbc-9b69-f0302cd84aef
+"Members of this role can create/manage groups, create/manage groups settings like naming and expiration policies, and view groups activity and audit reports.",Groups Administrator,706c072b-6cc7-4ae7-9dc3-e547ac5bac8a,,fdd7a751-b60b-444a-984c-02652fe8fa1c
+Can manage all aspects of the Intune product.,Intune Administrator,69cb48d0-6c79-4705-9871-8e2565496bca,,3a2c62db-5318-420d-8d74-23affee5d9d5
+"Can manage Office apps cloud services, including policy and settings management, and manage the ability to select, unselect and publish 'what's new' feature content to end-user's devices.",Office Apps Administrator,73dbb9bb-d5cd-400d-ac98-2a59ba22abed,,2b745bdf-0803-4d80-aa65-822c4493daac
+Can manage the Microsoft Teams service.,Teams Administrator,42ec8596-99eb-4196-9875-c13d2bb61d03,,69091246-20e8-4a56-aa4d-066075b2a7a8
+"Can manage all aspects of users and groups, including resetting passwords for limited admins.",User Administrator,8f931210-deb2-493f-9298-927029cdb57a,,fe930be7-5e62-47db-91af-98c3a49a38b1
+Can provision and manage all aspects of Cloud PCs.,Windows 365 Administrator,52645f66-0d0a-4ec0-8e39-5fde774b434d,,11451d60-acb2-45eb-a7d6-43d0f0125c13
+Can manage all aspects of the SharePoint service.,SharePoint Administrator,3614101d-39c9-44ac-80e2-a5b7d93018a4,,f28a1f50-f6e7-4571-818b-6a12f2af6b6c
+Security Administrator allows ability to read and manage security configuration and reports.,Security Administrator,43d64a33-5cdd-4b2f-b083-0e96752b71e6,,194ae4cb-b126-40b2-bd5b-6091b380977d

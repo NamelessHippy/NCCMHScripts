@@ -1,0 +1,16 @@
+﻿Description,DisplayName,Id,Members,RoleTemplateId
+Assign custom security attribute keys and values to supported Microsoft Entra objects.,Attribute Assignment Administrator,e617a7e8-a31c-4ae7-a957-025bd5dabed7,,58a13ea3-c632-46ae-9ee0-9c0d43cd7f3d
+"Allowed to view, set and reset authentication method information for any non-admin user.",Authentication Administrator,c6418c0e-fe4d-4ff2-9185-939b1d55daf6,,c4e39bd9-1100-46d3-8c65-fb160da0071f
+Customize sign in and sign up experiences for users by creating and managing custom authentication extensions.,Authentication Extensibility Administrator,021b6888-89c4-4c12-9538-befb1b39e285,,25a516ed-2fa0-40ea-a2d0-12923a21473a
+"Can create and manage the authentication methods policy, tenant-wide MFA settings, password protection policy, and verifiable credentials.",Authentication Policy Administrator,997c189e-ce92-4efb-9a0a-8f0cceca91f8,,0526716b-113d-4c15-b2c8-68e3c22b9f80
+Can manage Conditional Access capabilities.,Conditional Access Administrator,dacd2a55-d936-4375-9a33-886d522bf6dc,,b1be1c3e-b65d-4f19-8427-f6fa0d97feb9
+Only used by Microsoft Entra Connect service.,Directory Synchronization Accounts,40b698ae-4cc9-4347-ac53-1175ee516386,,d29b2b05-8046-44ba-8758-1e26182fcf32
+Can manage network locations and review enterprise network design insights for Microsoft 365 Software as a Service applications.,Network Administrator,328f605a-7b04-422e-97ea-f21b04fe1fc9,,d37c8bed-0711-4417-ba38-b4abe66ce4c2
+Can manage all aspects of printers and printer connectors.,Printer Administrator,25a426fb-ee83-4ce3-8b25-d05037199728,,644ef478-e28f-4e28-b9dc-3fdde9aa0b1f
+Can manage the Microsoft Teams service.,Teams Administrator,42ec8596-99eb-4196-9875-c13d2bb61d03,,69091246-20e8-4a56-aa4d-066075b2a7a8
+Can manage all aspects of the Exchange product.,Exchange Administrator,978f4e64-d2f0-493c-a11d-3b79cce739da,,29232cdf-9323-42fd-ade2-1d097af3e4de
+"Can manage all aspects of users and groups, including resetting passwords for limited admins.",User Administrator,8f931210-deb2-493f-9298-927029cdb57a,,fe930be7-5e62-47db-91af-98c3a49a38b1
+"Members of this role can create/manage groups, create/manage groups settings like naming and expiration policies, and view groups activity and audit reports.",Groups Administrator,706c072b-6cc7-4ae7-9dc3-e547ac5bac8a,,fdd7a751-b60b-444a-984c-02652fe8fa1c
+Security Administrator allows ability to read and manage security configuration and reports.,Security Administrator,43d64a33-5cdd-4b2f-b083-0e96752b71e6,,194ae4cb-b126-40b2-bd5b-6091b380977d
+Can read and manage compliance configuration and reports in Microsoft Entra ID and Microsoft 365.,Compliance Administrator,2e241967-7e00-4a73-a3b3-f23ae547097b,,17315797-102d-40b4-93e0-432062caca18
+Can manage all aspects of the Intune product.,Intune Administrator,69cb48d0-6c79-4705-9871-8e2565496bca,,3a2c62db-5318-420d-8d74-23affee5d9d5

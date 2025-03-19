@@ -1,0 +1,2 @@
+﻿Description,DisplayName,Id,Members,RoleTemplateId
+"Members of this role can create/manage groups, create/manage groups settings like naming and expiration policies, and view groups activity and audit reports.",Groups Administrator,706c072b-6cc7-4ae7-9dc3-e547ac5bac8a,,fdd7a751-b60b-444a-984c-02652fe8fa1c
