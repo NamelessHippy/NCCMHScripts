@@ -14,4 +14,4 @@ Go to Certficates & secrets
 Upload the certificatee
 You can use the cert name, in the Description column, or Thumbprint in the scripts.
 
-Do to the nature of this script, it is recomended to keep the script, and certficate, on an internal server that requires authentication to access. Not on an Administrator's workstation.
+Do to the nature of these scripts, it is recomended to keep the scripts, and any certficates, on an internal server that requires authentication to access. Not on an Administrator's workstation.
