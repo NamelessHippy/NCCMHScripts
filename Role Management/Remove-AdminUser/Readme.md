@@ -1,4 +1,4 @@
-#Remove-AdminUser scripts
+# Remove-AdminUser scripts
 Requriements:
 - Certificate-Base Authentication
   - Refer to Microsoft Documentation to create the app and certificate
