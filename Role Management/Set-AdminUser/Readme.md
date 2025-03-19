@@ -21,7 +21,7 @@ Do to the nature of this script, it is recomended to keep the script, and certfi
 
 This script will ask for the username or email of the account that is you are working with.  You can specify multiple accounts separated by a comma (,), semi-colun (;) or dash (-).  More separators can be added inside the -split property value on Line 19.
 
-The script automatically checks if each of the values entered to not contain an email address and appends the domain to create an email address, since that is needed by the command. You will need to update the domain on Line 27 to your domain for this to work.
+The script automatically checks if each of the values entered do not contain an email address and appends the domain to create an email address, since that is needed by the command. You will need to update the domain on Line 27 to your domain for this to work.
 
 Line 46 and 47 are job roles that Admin fill.  Adjust them for the specific roles in your Tenant.  
 If you have a different number of roles, change the max value in the If condition on Line 55 and the conditions in the Switch on Line 58.
