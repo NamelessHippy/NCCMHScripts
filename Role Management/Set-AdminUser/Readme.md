@@ -3,6 +3,8 @@
 This script is to facilitate quickly assigning Directory Role Groups to Administrators when using Privilaged Identity Management.  
 If you are not employing PIM in your Tenant, then this script will not be needed.
 
+When Assigning roles using this script, Privilaged roles will still send an email notification for all users assigned to the role.  Regardless of being assigned Eligible or Active.
+
 Requriements:
 - Certificate-Base Authentication
   - Refer to Microsoft Documentation to create the app and certificate
