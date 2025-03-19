@@ -2,12 +2,7 @@
 Requriements:
 - Certificate-Base Authentication
   - Refer to Microsoft Documentation to create the app and certificate
-  - API Permissions:
-    - Riectory.ReadWrite.All
-    - RoleManagement.ReadWrite.Directory
-    - User.ReadWrite.All
-  - API Permission Type:
-    - Application
+  - Refer to Role Managment Readme for AIP permissions
 - PowerShell Modules
   - Microsoft.Graph
 
