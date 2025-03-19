@@ -1,4 +1,4 @@
-#Get-MailboxRules.ps1 Readme
+# Get-MailboxRules.ps1 Readme
 Requirements:
 - Administrator Roles:
   - Global Administrator
