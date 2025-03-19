@@ -21,7 +21,7 @@ foreach($userId in $userIds){
     $conif=$false
     #check if there is an @ sign to validate if it is an email address entered and append domain to user name if not.
     if($userId-notmatch"@"){
-        $userId="$($userId)@norcocmh.org" #replace @domain.com with your domain
+        $userId="$($userId)@domain.com" #replace @domain.com with your domain
     }
     Write-Host "I will now get the user information."
     #get user information
