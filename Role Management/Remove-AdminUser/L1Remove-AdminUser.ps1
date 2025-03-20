@@ -1,4 +1,3 @@
-#Requires -Modules Microsoft.Graph
 #Requires -Version 7.0
 #Requires -RunAsAdministrator
 $users=New-Object System.Collections.ArrayList
