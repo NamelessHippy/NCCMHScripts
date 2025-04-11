@@ -9,6 +9,7 @@ Microsoft APIs>Microsoft Graph
     - Directory.ReadWrite.All
     - RoleManagement.ReadWrite.Directory
     - User.ReadWrite.All
+
 Generate a self-signed certficiate on the server the scripts will be run on
 In the app
 Go to Certficates & secrets
