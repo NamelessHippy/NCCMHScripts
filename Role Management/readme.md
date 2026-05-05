@@ -15,7 +15,7 @@ Go to Authentication
 - Microsoft APIs>Microsoft Graph
     - API Permission Type:
         - Delegated
-    - API Permissions:
+    - API Permissions (You can use this app for both or separate apps for each Role Management Sript, if using separate apps, review permissions for least privilaged):
         - Directory.ReadWrite.All
         - Group.ReadWrite.All
         - GroupMember.ReadWrite.All
