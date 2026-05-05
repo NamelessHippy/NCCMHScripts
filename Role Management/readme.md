@@ -9,20 +9,20 @@ Go to Authentication
     - Add recirect URI
         - Choose Mobile and desktop applications
         - Add http://localhost
-go to API permissions
-Remove default permissions
-click Add Permissions
-Microsoft APIs>Microsoft Graph
-- API Permission Type:
-    - Delegated
-- API Permissions:
-    Directory.ReadWrite.All
-    Group.ReadWrite.All
-    GroupMember.ReadWrite.All
-    RoleAssignmentSchedule.ReadWrite.Directory
-    RoleAssignmentSchedule.Remove.Directory
-    RoleEligibilitySchedule.ReadWrite.Directory
-    RoleEligibilitySchedule.Remove.Directory
+- go to API permissions
+- Remove default permissions
+- click Add Permissions
+- Microsoft APIs>Microsoft Graph
+    - API Permission Type:
+        - Delegated
+    - API Permissions:
+        - Directory.ReadWrite.All
+        - Group.ReadWrite.All
+        - GroupMember.ReadWrite.All
+        - RoleAssignmentSchedule.ReadWrite.Directory
+        - RoleAssignmentSchedule.Remove.Directory
+        - RoleEligibilitySchedule.ReadWrite.Directory
+        - RoleEligibilitySchedule.Remove.Directory
 - Save Client (Application) ID to a text file (client.txt is the default name in this script)
 - Save Tenant ID to a text file (tenant.txt is the default name in this script)
 
