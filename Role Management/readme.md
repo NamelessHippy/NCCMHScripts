@@ -36,3 +36,15 @@ This restricts login to only the admin accounts assign.
 Update all file paths with the locations of the scripts/text files
 It is encuraged to use a repository so the same version of this script is accessable to all administrators.
 The Tenant ID is the same for all apps in your tenant, so keeping it in a location that is accessable to other apps that use app authentication (either delegated as  this one, or Certificat-based authentication).
+
+#Change Log
+Version 1.1.0
+	-added Named Pipe Stream Server to hand off User Objects to Subscripts
+	-Removed Certificate Based Authentication (It created risks on the app)
+	-Updated to use WAM Functionality in Graph SDK version 3.24.x or higher
+	-This includes pulling Graph authentication context into subscripts without certificate based authentication
+	-Changed to use an app with delegated permissions
+	-This is needed because RBAC changes are in Azure, which is not updated for WAM functionality
+	-Strongly recomended to restrict Authentication on the app to only Administrators allowed to run this script
+	-Added Event Handler functionality to control disconnecting from Graph API and Exchange Online only after all subscripts are finished
+
