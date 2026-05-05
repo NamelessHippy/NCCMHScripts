@@ -1,19 +1,38 @@
-# Role Management Certificate-Based Authentication
-After creating the app, go to API permissions
+# Role Management App
+Create an App Registration (this is required because Azure is not updated for WAM authentication)
+Open the app:
+Go to Authentication
+- Settings tab
+    - Add Redirect URI
+        - Choose Mobile and desktop applications
+        - Add msal://redirect
+    - Add recirect URI
+        - Choose Mobile and desktop applications
+        - Add http://localhost
+go to API permissions
 Remove default permissions
-click Add Permiss
+click Add Permissions
 Microsoft APIs>Microsoft Graph
 - API Permission Type:
-    - Application
+    - Delegated
 - API Permissions:
-    - Directory.ReadWrite.All
-    - RoleManagement.ReadWrite.Directory
-    - User.ReadWrite.All
+    Directory.ReadWrite.All
+    Group.ReadWrite.All
+    GroupMember.ReadWrite.All
+    RoleAssignmentSchedule.ReadWrite.Directory
+    RoleAssignmentSchedule.Remove.Directory
+    RoleEligibilitySchedule.ReadWrite.Directory
+    RoleEligibilitySchedule.Remove.Directory
+- Save Client (Application) ID to a text file (client.txt is the default name in this script)
+- Save Tenant ID to a text file (tenant.txt is the default name in this script)
 
-Generate a self-signed certficiate on the server the scripts will be run on
-In the app
-Go to Certficates & secrets
-Upload the certificatee
-You can use the cert name, in the Description column, or Thumbprint in the scripts.
+Optional but recommended:
+Go to Enterprise Apps and search for the app you just created
+- Go to Users and groups
+    - Assign administrators authorized to use this app
+    - A group can be used for easier management (including by this script)
+This restricts login to only the admin accounts assign.
 
-Do to the nature of these scripts, it is recomended to keep the scripts, and any certficates, on an internal server that requires authentication to access. Not on an Administrator's workstation.
+Update all file paths with the locations of the scripts/text files
+It is encuraged to use a repository so the same version of this script is accessable to all administrators.
+The Tenant ID is the same for all apps in your tenant, so keeping it in a location that is accessable to other apps that use app authentication (either delegated as  this one, or Certificat-based authentication).
