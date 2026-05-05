@@ -1,0 +1,6 @@
+subscript,name
+\\scripts-srvr\Scripts\PowerShell\RoleManagement\Remove-AdminUser\L2Remove-ActiveAdmin.ps1,ActiveAdmin
+\\scripts-srvr\Scripts\PowerShell\RoleManagement\Remove-AdminUserV3\L2Remove-DefenderAdmin.ps1,DefenderAdmin
+\\scripts-srvr\Scripts\PowerShell\RoleManagement\Remove-AdminUser\L2Remove-EligibleAdmin.ps1,EligibleAdmin
+\\scripts-srvr\Scripts\PowerShell\RoleManagement\Remove-AdminUser\L2Remove-ExchangeAdmin.ps1,ExchangeAdmin
+\\scripts-srvr\Scripts\PowerShell\RoleManagement\Remove-AdminUser\L2Remove-Groups.ps1,Groups

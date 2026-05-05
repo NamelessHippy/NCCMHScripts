@@ -1,0 +1,4 @@
+Microsoft.Graph.Groups
+Microsoft.Graph.Identity.Governance
+Microsoft.Graph.Users
+Microsoft.Graph.Users.Actions

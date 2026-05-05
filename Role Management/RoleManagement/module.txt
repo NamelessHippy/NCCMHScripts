@@ -1,0 +1,6 @@
+Microsoft.Graph.Authentication
+Microsoft.Graph.Groups
+Microsoft.Graph.Identity.DirectoryManagement
+Microsoft.Graph.Identity.Governance
+Microsoft.Graph.Users
+Microsoft.Graph.Users.Actions
